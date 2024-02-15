@@ -1,0 +1,82 @@
+@import "../../Styles/global.scss";
+
+.info {
+  .header {
+    justify-content: space-between;
+    .logoName {
+      gap: 20px;
+    }
+    .headerOptions {
+      font-size: $xsFont;
+      list-style: none;
+      gap: 20px;
+      li {
+        color: var(--white);
+        font-weight: 600;
+      }
+    }
+    .headerButtons {
+      gap: 20px;
+    }
+  }
+
+  .infoDetail {
+    justify-content: space-between;
+    .infoText {
+      width: 35%;
+    }
+    // h1 {
+    //   color: var(--white);
+    //   font-size: $xxxlFont;
+    //   width: fit-content;
+    //   margin: 10px 0;
+    //   white-space: nowrap;
+    // }
+    // p {
+    //   color: var(--white);
+    //   margin: 30px 0;
+    // }
+    .infoButtonArrow {
+      gap: 20px;
+      justify-content: flex-start;
+      svg {
+        color: var(--tertiary);
+        font-size: $xlFont;
+      }
+    }
+  }
+  .infoFooter {
+    border-radius: 100px;
+    padding: 20px;
+    justify-content: space-evenly;
+    background: linear-gradient(
+      to right,
+      var(--darkBg),
+      var(--primary),
+      var(--darkBg)
+    );
+    margin: 80px 0;
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 2px 10px #00000030, -2px -2px 10px #00000030;
+    .divider {
+      width: 1px;
+      height: 100px;
+      background-color: var(--secondary);
+    }
+    h2 {
+      color: var(--white);
+      margin: 0;
+      font-size: $mFont;
+    }
+    p {
+      color: var(--white);
+      margin: 10px 0 0 0;
+      font-size: $xsFont;
+    }
+    svg {
+      color: var(--secondary);
+      font-size: $xxxlFont;
+      margin-right: 20px;
+    }
+  }
+}

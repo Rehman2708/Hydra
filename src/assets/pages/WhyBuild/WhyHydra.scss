@@ -1,0 +1,35 @@
+.cards {
+  margin: 50px 0;
+  .card {
+    border-radius: 10px;
+    width: 20%;
+    background: radial-gradient(
+      ellipse at center,
+      var(--primary) 30%,
+      var(--darkBg) 50%,
+      var(--darkBg) 100%
+    );
+    padding: 20px;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    .image {
+      border: 5px solid #0e0e0e50;
+      border-radius: 100px;
+    }
+    .title {
+      font-size: 24px;
+      color: white;
+      font-weight: 500;
+      border-bottom: 1px solid var(--secondary);
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+    .description {
+      font-size: 12px;
+      color: white;
+      font-weight: 200;
+      line-height: 18px;
+      margin-bottom: 20px;
+    }
+  }
+}

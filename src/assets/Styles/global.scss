@@ -1,0 +1,79 @@
+$xxsFont: 0.65rem;
+$xsFont: 0.75rem;
+$msFont: 0.875rem;
+$sFont: 1rem;
+$mmFont: 1.125rem;
+$mFont: 1.25rem;
+$lFont: 1.5rem;
+$xlFont: 1.75rem;
+$xxlFont: 2rem;
+$xxxlFont: 2.5rem;
+
+// colors
+
+:root {
+  --primary: #302c42;
+  --secondary: #8176af;
+  --tertiary: #c0b7e8;
+  --white: #fff;
+  --darkBg: #0e0e0e50;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gap20 {
+  gap: 20px;
+}
+
+// buttons
+
+.primaryButton {
+  border-radius: 100px;
+  padding: 12px 25px;
+  font-size: $xsFont;
+  font-weight: 600;
+  color: var(--primary);
+  background: linear-gradient(to right, var(--secondary), var(--tertiary));
+  border: 3px solid var(--secondary);
+  cursor: pointer;
+}
+.secondaryButton {
+  border-color: var(--white);
+  color: var(--white);
+  background: transparent;
+}
+
+// texts
+
+.primaryHead {
+  color: var(--white);
+  font-weight: 600;
+  font-size: $xxxlFont;
+  width: fit-content;
+  margin: 0;
+  white-space: nowrap;
+}
+.secondaryHead {
+  color: var(--white);
+  font-weight: 200;
+  font-size: $xxxlFont;
+  width: fit-content;
+  margin: 10px 0 10px 0;
+  white-space: nowrap;
+}
+.paraText {
+  color: var(--white);
+  margin: 30px 0;
+  font-size: $sFont;
+  font-weight: 200;
+  line-height: 25px;
+}
+.introHead {
+  justify-content: space-between;
+  .paraText {
+    width: 45%;
+  }
+}
