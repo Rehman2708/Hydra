@@ -9,8 +9,6 @@ $xlFont: 1.75rem;
 $xxlFont: 2rem;
 $xxxlFont: 2.5rem;
 
-// colors
-
 :root {
   --primary: #302c42;
   --secondary: #8176af;
@@ -28,8 +26,6 @@ $xxxlFont: 2.5rem;
   gap: 20px;
 }
 
-// buttons
-
 .primaryButton {
   border-radius: 100px;
   padding: 12px 25px;
@@ -45,8 +41,6 @@ $xxxlFont: 2.5rem;
   color: var(--white);
   background: transparent;
 }
-
-// texts
 
 .primaryHead {
   color: var(--white);
